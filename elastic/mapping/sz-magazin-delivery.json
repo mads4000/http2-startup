@@ -1,0 +1,198 @@
+{
+  "mappings": {
+    "document": {
+      "date_detection": false,
+      "properties": {
+        "id": {
+          "type": "long"
+        },
+        "docType": {
+          "type": "keyword"
+        },
+        "channels": {
+          "type": "object",
+          "dynamic": false
+        },
+        "design": {
+          "type": "object",
+          "dynamic": false
+        },
+        "metadata": {
+          "type": "object",
+          "properties": {
+            "headerBackgroundColor": {
+              "index": true,
+              "type": "text"
+            },
+            "title": {
+              "type": "text",
+              "fields": {
+                "raw": {
+                  "type": "keyword"
+                },
+                "german": {
+                  "type": "text",
+                  "analyzer": "german_analyzer"
+                }
+              }
+            },
+            "payCategory": {
+              "type": "keyword"
+            },
+            "slug": {
+              "type": "keyword"
+            },
+            "staticIdentifier": {
+              "properties": {
+                "name": {
+                  "type": "keyword"
+                },
+                "slugified": {
+                  "type": "keyword"
+                }
+              }
+            },
+            "leadTag": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "keyword"
+                },
+                "slugified": {
+                  "type": "keyword"
+                }
+              }
+            },
+            "tags": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "keyword"
+                },
+                "slugified": {
+                  "type": "keyword"
+                }
+              }
+            },
+            "issue": {
+              "type": "object",
+              "properties": {
+                "number": {
+                  "type": "keyword"
+                },
+                "week": {
+                  "type": "integer"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "twoDigitsWeek": {
+                  "type": "keyword"
+                }
+              }
+            },
+            "description": {
+              "analyzer": "german_analyzer",
+              "type": "text"
+            },
+            "authors_list": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "keyword"
+                },
+                "slugified": {
+                  "type": "keyword"
+                }
+              }
+            },
+            "authorIdentifier": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "keyword"
+                },
+                "slugified": {
+                  "type": "keyword"
+                }
+              }
+            },
+            "tagIdentifier": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "keyword"
+                },
+                "slugified": {
+                  "type": "keyword"
+                }
+              }
+            },
+            "documentType": {
+              "type": "keyword"
+            },
+            "publicationDate": {
+              "type": "date"
+            },
+            "migration": {
+              "properties": {
+                "created": {
+                  "type": "date",
+                  "format": "strict_date_optional_time||epoch_millis"
+                },
+                "id": {
+                  "type": "long"
+                },
+                "url": {
+                  "type": "keyword"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "settings": {
+    "number_of_shards": 4,
+    "number_of_replicas": 1,
+    "max_result_window": 40000,
+    "analysis": {
+      "analyzer": {
+        "german_analyzer": {
+          "char_filter": "html_strip",
+          "filter": [
+            "germanstop",
+            "germansnow",
+            "icu_folding"
+          ],
+          "tokenizer": "icu_tokenizer"
+        },
+        "lowercase": {
+          "filter": [
+            "lowercase",
+            "trim"
+          ],
+          "tokenizer": "icu_tokenizer"
+        },
+        "keyword_lowercase": {
+          "filter": [
+            "lowercase",
+            "trim"
+          ],
+          "tokenizer": "keyword"
+        }
+      },
+      "filter": {
+        "germansnow": {
+          "language": "German2",
+          "type": "snowball"
+        },
+        "germanstop": {
+          "type": "stop",
+          "stopwords": "_german_"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+version: '3'
+services:
+  szm-delivery-elastic:
+    image: gcr.io/mawa-225208/szm-delivery-elastic:latest 
+    ports:
+      - 9200:9200
+      - 9300:9300
+    volumes:
+      - szm-delivery-elastic-data:/usr/share/elasticsearch/data
+      - szm-delivery-elastic-log:/usr/share/elasticsearch/logs
+      - szm-delivery-elastic-backup:/usr/share/elasticsearch/backup
+    container_name: szm-delivery-elastic
+    environment:
+      - "discovery.type=single-node"
+  szm-delivery:
+    image: gcr.io/mawa-225208/szm-delivery:latest
+    ports:
+      - 8080:8080
+    container_name: szm-delivery
+    env_file:
+      - delivery.env
+volumes:
+  szm-delivery-elastic-data:
+    driver: local
+  szm-delivery-elastic-log:
+    driver: local
+  szm-delivery-elastic-backup:
+    driver: local
+

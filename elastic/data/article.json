@@ -1,0 +1,482 @@
+{
+  "channels": {
+    "html": "<header class=\"articleheader authors-list--absright\"><section class=\"articleheader__textsection\"><div class=\"articleheader__textcontainer l-rwd fore-edge\"><div class=\"articleheader__metabar\"><ul class=\"list metabar label-text__small--inc-tracking\"><li class=\"list__item list__item--horizontal metabar__item metabar__item--date\">11. Dezember 2018</li><li class=\"list__item list__item--horizontal metabar__item metabar__item--leadtag\"><a href=\"/tag/http2\" class=\"link link--inline\">http2</a></li></ul></div><h1 class=\"headline headline--h1 articleheader__headline articleheader__headline--h1\">Ein Test f&#xFC;r http/2</h1><div class=\"subline articleheader__subline text__large--italic\">Wir wollen mal schauen, was http/2 so bringt?</div><div class=\"articleheader__author\"><ul class=\"list authors-list label-text__small--inc-tracking\"><li class=\"list__item--horizontal author__item\"><span>Von:</span> <span><a href=\"/autor/ma-wa\" class=\"link link--inline\">ma wa</a></span></li></ul></div></div></section><section class=\"articleheader__mediasection\"><div class=\"articleheader__mediacontainer l-rwd fore-edge\"><figure class=\"figure figure--standalone aspect-ratio\" role=\"group\"><img class=\"figure__image image image-brightness--medium\" alt=\"\" data-action=\"lazyload\" data-action-params=\"{&quot;type&quot;:&quot;index&quot;}\" src=\"https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/640/image.jpeg?h=f72e90eed367adf853808de67b1a1fb8&amp;hv=1\" srcset=\"https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/1280/image.jpeg?h=9bdb178df8ebe2945f30140549d55935&amp;hv=1 1280w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/970/image.jpeg?h=66da26aabb7d6cd6ca15324b6f2afff5&amp;hv=1 970w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/640/image.jpeg?h=f72e90eed367adf853808de67b1a1fb8&amp;hv=1 640w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/200/image.jpeg?h=faf84b2ffe0a9384565c41373ac78a82&amp;hv=1 200w\" sizes=\"(max-width: 980px) 80vw,(max-width: 720px) 100vw,60vw\"><figcaption class=\"figure__caption label-text__small\"><div class=\"figure__positionhelper\"><div class=\"figure__underline\"><p class=\"figure__captiontext\" style=\"display: none;\"></p></div></div><p class=\"figure__credits\" style=\"display: none;\"></p></figcaption></figure></div></section></header><main class=\"articlemain l-rwd fore-edge\"><div class=\"socialsharingbar socialsharingbar--top\"><div class=\"socialsharingbar__container socialsharingbar__container--top\"><ul class=\"list list--horizontal socialsharingbar__list\"><li class=\"list__item list__item--horizontal socialsharingbar__item socialsharingbar__item--twitter\"><a href=\"https://twitter.com/intent/tweet?url=https://www.sz-magazin.de/http2/ein-test-fuer-http2-16&amp;text=Wir wollen mal schauen, was http/2 so bringt?%20via%20%40SZMagazin\" class=\"link socialsharingbar__link socialsharingbar__link--twitter socialsharingbar__rounded-icon socialsharingbar__rounded-icon--twitter\" title=\"Twitter\" target=\"_blank\" rel=\"noopener\"><svg class=\"icon icon--twitter\" viewbox=\"0 0 36 36\"><path d=\"M28,11.8930518 C27.2638877,12.2142948 26.4740498,12.4321581 25.6441792,12.5294225 C26.4915335,12.029679 27.140162,11.2370157 27.4475808,10.2953981 C26.6527429,10.7581927 25.7753885,11.094241 24.8405504,11.2764107 C24.0919544,10.4898948 23.0271487,10 21.8461011,10 C19.5802804,10 17.7431205,11.8093696 17.7431205,14.0396927 C17.7431205,14.3560113 17.7793624,14.6649595 17.8493625,14.9603898 C14.4400105,14.791738 11.4168356,13.1830125 9.39346633,10.7384952 C9.03977294,11.3342479 8.83856346,12.0284238 8.83856346,12.7694295 C8.83856346,14.1713956 9.56343393,15.4084113 10.6632396,16.1321334 C9.99085293,16.1099898 9.35846627,15.9278201 8.80483792,15.6250194 L8.80483792,15.6754862 C8.80483792,17.6325548 10.2195788,19.2659021 12.0954642,19.6376441 C11.7517708,19.7287289 11.3893519,19.7791957 11.0144167,19.7791957 C10.7494816,19.7791957 10.493272,19.7533508 10.2420625,19.7041071 C10.764449,21.3103864 12.27919,22.4784609 14.0738661,22.5104854 C12.6703671,23.5936546 10.900691,24.2373959 8.97856369,24.2373959 C8.64738668,24.2373959 8.321177,24.2176984 8,24.1820047 C9.815918,25.3304138 11.9717712,26 14.2888338,26 C21.8361664,26 25.9616633,19.8432126 25.9616633,14.5037426 L25.9479051,13.9806324 C26.7539849,13.4143937 27.451339,12.7029665 28,11.8930518 Z\"/></svg></a></li><li class=\"list__item list__item--horizontal socialsharingbar__item socialsharingbar__item--mail\"><a href=\"mailto:?subject=sz-magazin.de%20-%20Ein Test f&#xFC;r http/2&amp;body=Lies%20folgenden%20Artikel%20auf%20sz-magazin.de:%0AEin Test f&#xFC;r http/2%0AWir wollen mal schauen, was http/2 so bringt?%0Ahttps://www.sz-magazin.de/http2/ein-test-fuer-http2-16\" class=\"link socialsharingbar__link link socialsharingbar__link--mail socialsharingbar__rounded-icon socialsharingbar__rounded-icon--mail\" title=\"Email\"><svg class=\"icon icon--mail\" viewbox=\"-10 -12 44 44\"><path d=\"M9,9.35l2.4,2.21a.72.72,0,0,0,1,0l2.4-2.21,7.63,9-7.63-9,8.57-7.88a3.23,3.23,0,0,1,.46,1.66V15.67a2.76,2.76,0,0,1-1.41,2.65,2.84,2.84,0,0,1-1.57.48H3a4.55,4.55,0,0,1-1.58-.37h0C0,18.15,0,16.22,0,15.67V3.13A3.23,3.23,0,0,1,.46,1.47L9,9.35Zm2.89.58L1.56.39A2.82,2.82,0,0,1,3,0H20.87a2.83,2.83,0,0,1,1.42.39Z\"/></svg></a></li><li class=\"list__item list__item--horizontal socialsharingbar__item socialsharingbar__item--facebook\"><a href=\"https://www.facebook.com/sharer/sharer.php?u=https://www.sz-magazin.de/http2/ein-test-fuer-http2-16\" class=\"link socialsharingbar__link link socialsharingbar__link--facebook socialsharingbar__rounded-icon socialsharingbar__rounded-icon--facebook\" title=\"Facebook\" target=\"_blank\" rel=\"noopener\"><svg class=\"icon icon--facebook\" viewbox=\"-13 -6 38 38\"><path d=\"M2.92,5.17V8.42H.6v4H2.92v11.8H7.68V12.39h3.2s.3-1.9.44-4H7.7V5.69a1.14,1.14,0,0,1,1-1h2.6V.6H7.8C2.8.6,2.92,4.58,2.92,5.17Z\"/></svg></a></li><li class=\"list__item list__item--horizontal socialsharingbar__item socialsharingbar__item--whatsapp\"><a href=\"whatsapp://send?text=http2%20-%20Ein Test f&#xFC;r http/2%20-%20https://www.sz-magazin.de/http2/ein-test-fuer-http2-16%20-%20%40SZMagazin\" class=\"link socialsharingbar__link link socialsharingbar__link--whatsapp socialsharingbar__rounded-icon socialsharingbar__rounded-icon--whatsapp\" title=\"WhatsApp\" target=\"_blank\" rel=\"noopener\"><svg class=\"icon icon--whatsapp\" viewbox=\"-8 -8 38 38\"><path d=\"M23,11.2A11.31,11.31,0,0,1,6.25,21L0,23l2-6A11.09,11.09,0,0,1,.42,11.2,11.29,11.29,0,0,1,23,11.2Zm-4,3.41c-.09-.14-.32-.23-.66-.4s-2-1-2.35-1.12-.55-.17-.78.17-.89,1.12-1.09,1.35-.4.26-.75.09A9.42,9.42,0,0,1,10.55,13a10.34,10.34,0,0,1-1.92-2.38c-.2-.34,0-.53.15-.7s.34-.4.52-.6a2.3,2.3,0,0,0,.34-.57.63.63,0,0,0,0-.6C9.54,8,8.85,6.29,8.56,5.6S8,5,7.78,5L7.12,5a1.27,1.27,0,0,0-.92.43A3.84,3.84,0,0,0,5,8.29a6.66,6.66,0,0,0,1.41,3.55c.17.23,2.38,3.81,5.88,5.18s3.5.92,4.13.86a3.48,3.48,0,0,0,2.33-1.63A2.87,2.87,0,0,0,19,14.62Z\"/></svg></a></li></ul></div></div><div class=\"articlemain__inner\"><div class=\"articlemain__ad ad ad--p3\"><div class=\"adpreview adpreview--hpa text__small--italic\"></div></div><div class=\"articlemain__content\"><p class=\"paragraph text__normal\">Bavaria ipsum dolor sit amet jedza du dadst ma scho daugn gscheid da in da greana Au, Edlweiss oamoi: Maderln gro&#xDF;herzig jedza, i hab an Enzian. Pfiad de is des liab gfreit mi Servas, Wei&#xDF;wiaschd? Aba Resi Maderln a bissal Jodler, heid gfoids ma sagrisch guad. Nia Resi ned wui und ded Meidromml hoid Biaschlegl? Des muas ma hoid kenna Gamsbart Obazda Semmlkneedl gschmeidig sog i Schorsch wos Resi. Auffi unbandig boarischer, Meidromml und glei wirds no fui lustiga! Barfua&#xDF;at Mamalad grea&#xDF;t eich nachad Breihaus heitzdog Gamsbart Graudwiggal Schmankal hogg di hera kimmt? Obacht nomoi kimmt do legst di nieda do sog i, Buam Reiwadatschi Steckerleis ned woar a bissal wos gehd ollaweil! A Ma&#xDF; und no a Ma&#xDF; barfua&#xDF;at sodala von, und glei wirds no fui lustiga ja, wo samma denn i mog di fei Schneid? Gschmeidig gscheckate amoi Gaudi.</p><p class=\"paragraph text__normal\">Gamsbart is mehra mi griasd eich midnand des muas ma hoid kenna eam. I Ledahosn Bladl a ganze? Bladl Obazda damischa, zwoa sowos Almrausch is Semmlkneedl Hemad da, hog di hi: Am acht&#x2019;n Tag schuf Gott des Bia ded Habedehre Foidweg Wiesn vasteh obandeln Goa&#xDF;ma&#xDF; umma Fingahaggln. Guad do legst di nieda gfreit mi, helfgod. Kumm geh fei Meidromml naa Schuabladdla a bissal mim Radl foahn in da greana Au jo mei, und sei Wurschtsolod. A bissal sauba um Godds wujn Spezi oa, a so a Schmarn? Wolln i bin a woschechta Bayer pfiad de zua. No a Ma&#xDF; is des liab anbandeln, hod is des liab o&#x2019;ha jo mei middn von. Hea gscheckate Maderln Greichats Watschnpladdla. Gstanzl Milli i heid Servas d&#x2019; is ma Wuascht Schorsch Biaschlegl Musi!</p><figure class=\"figure figure--standalone aspect-ratio\" role=\"group\"><img class=\"figure__image image image-brightness--medium\" alt=\"\" data-action=\"lazyload\" data-action-params=\"{&quot;type&quot;:&quot;index&quot;}\" src=\"https://media.mawamuc.de/image/szm/17b5db1f11ffa8d22f081b7e61ceb542/640/image.jpeg?h=f27147330cdd52170f617863065e7557&amp;hv=1\" srcset=\"https://media.mawamuc.de/image/szm/17b5db1f11ffa8d22f081b7e61ceb542/1280/image.jpeg?h=76eafc320247aa1847765e726688bcc0&amp;hv=1 1280w,https://media.mawamuc.de/image/szm/17b5db1f11ffa8d22f081b7e61ceb542/970/image.jpeg?h=1b0db659ce04d27e01361e11c13370e7&amp;hv=1 970w,https://media.mawamuc.de/image/szm/17b5db1f11ffa8d22f081b7e61ceb542/640/image.jpeg?h=f27147330cdd52170f617863065e7557&amp;hv=1 640w,https://media.mawamuc.de/image/szm/17b5db1f11ffa8d22f081b7e61ceb542/200/image.jpeg?h=dac1bbf6b74e1a837b8aebded444977d&amp;hv=1 200w\" sizes=\"(max-width: 980px) 80vw,(max-width: 720px) 100vw,60vw\"><figcaption class=\"figure__caption label-text__small\"><div class=\"figure__positionhelper\"><div class=\"figure__underline\"><p class=\"figure__captiontext\" style=\"display: none;\"></p></div></div><p class=\"figure__credits\" style=\"display: none;\"></p></figcaption></figure><p class=\"paragraph text__normal\">I bin a woschechta Bayer Radi Schbozal Wurschtsolod Xaver san? I mog di fei gro&#xDF;herzig koa Schmankal, Maderln: Brezn hawadere midananda naa um Godds wujn i daad, Gaudi d&#x2019;? Schaugn des wiad a Mordsgaudi barfua&#xDF;at gscheckate Blosmusi lem und lem lossn Guglhupf i in da greana Au! Lem und lem lossn Schuabladdla etza und sei ded Meidromml a bravs. Des is hoid aso Hetschapfah jedza, sauba! Lem und lem lossn luja nix hod, pfundig Trachtnhuat: Schnacksln da Kini etza Haferl, Schdarmbeaga See a Prosit der Gmiadlichkeit. Des muas ma hoid kenna wuid scheans a so a Schmarn, i bin a woschechta Bayer. Jo mei is des schee Buam Gams a so a Schmarn, Schbozal abfieseln abfieseln Maibam heitzdog! Sei heid oans, zwoa, gsuffa san. Kimmt lem und lem lossn sog i Namidog, Hemad Watschnbaam a fescha Bua wia: I bin a woschechta Bayer des is schee trih&#xF6;leridi dijidiholleri nackata.</p><p class=\"paragraph text__normal\">Gamsbart auffi mim, soi wea nia ausg&#xE4;hd, kummt nia hoam singd des is schee vo de imma! Hoid Prosd Vergeltsgott spernzaln, no a Ma&#xDF; sauba Ewig und drei Dog eam und sei. Heimatland hogg di hera und glei wirds no fui lustiga Semmlkneedl Almrausch Jodler Haferl, is hoggd: Hi naa sammawiedaguad kummd, Kneedl. Hawadere midananda no a Ma&#xDF; sei, Steckerleis wos! Von Schuabladdla Gamsbart des muas ma hoid kenna, zua damischa hinter&#x2019;m Berg san a no Leit Sauwedda. Hemad schaugn Weibaleid Brodzeid des basd scho dahoam af, des is schee ned des is schee gor: Gscheit nia zua sei, Wurscht Reiwadatschi Maibam baddscher i sog ja nix, i red ja blo&#xDF; des! Ohrwaschl muass Schdeckalfisch, gwihss Namidog Marei i hob di narrisch gean i hob di liab auf&#x2019;d Schellnsau oans. Owe i Jodler, Hemad.</p><p class=\"paragraph text__normal\">Naa dei is Wurscht Spuiratz auffi, Vergeltsgott Kuaschwanz: Bitt Hendl wos Kuaschwanz pfiad de amoi, du dadst ma scho daugn Enzian: Hinter&#x2019;m Berg san a no Leit Hetschapfah aba, von fei naa Ledahosn. Jo mei is des schee anbandeln auf&#x2019;d Schellnsau, Steckerleis Schneid Mongdratzal Baamwach Namidog wann griagd ma nacha wos z&#x2019;dringa? Nois F&#xFC;nferl Radi des basd scho geh Ewig und drei Dog Zwedschgndadschi Servas sowos Xaver. Schmankal Freibia luja Biagadn Hemad Haferl. Ozapfa ghupft wia gsprunga luja um Godds wujn, o&#x2019;ha etza de Sonn wiavui Bussal! Maibam hawadere midananda do Landla Leonhardifahrt Schmankal helfgod. Ohrwaschl Bussal Habedehre Schdarmbeaga See Mamalad, damischa des is hoid aso. Wos Schorsch resch gscheid g&#x2019;hupft wia gsprunga ded allerweil mechad baddscher.</p><p class=\"paragraph text__normal\">Steckerleis o&#x2019;ha hob oans, i hob di liab middn i mog di fei Servas: Gria&#xDF; God beinand obacht wea nia ausg&#xE4;hd, kummt nia hoam oba nomoi wos Gidarn Blosmusi. Jo mei is des schee g&#x2019;hupft wia gsprunga Spotzerl Engelgwand sodala Biazelt wolln muass, Schuabladdla Deandlgwand de? Fensdaln Servas oa, i mechad dee Schwoanshaxn Guglhupf von sch&#xFC;ds nei. Leonhardifahrt umma oa ma in da greana Au Musi wia, guad. Pfiad de woa&#xDF; Biawambn Charivari weida Auffisteign, und glei wirds no fui lustiga Auffisteign an bittsch&#xF6;n geh. Buam dahoam Kneedl, ognudelt noch da Giasinga Heiwog Schuabladdla fias! Schmankal abfieseln Stubn o&#x2019;ha vo de F&#xFC;nferl singd dringma aweng. Mamalad a fescha Bua vo de des is schee koa Ewig und drei Dog, noch da Giasinga Heiwog. Heid Oachkatzlschwoaf a ganze Hoiwe gwiss, nia.</p><p class=\"paragraph text__normal\">A Ma&#xDF; und no a Ma&#xDF; mehra obandeln Ma&#xDF;kruag Engelgwand des is a gmahde Wiesn Schuabladdla Schuabladdla do do legst di nieda Broadwurschtbudn? Abfieseln i hab an um Godds wujn no, etza Namidog sog i! Gscheid obandln Schbozal, gschmeidig helfgod a so a Schmarn moand dringma aweng pfenningguat. Foidweg hoggd hinter&#x2019;m Berg san a no Leit, naa i waar soweid. Wurschtsolod Milli mehra i mog di fei, mehra gscheid Sauwedda. Engelgwand singd kimmt Enzian, Gstanzl gelbe R&#xFC;am ja, wo samma denn. Is des liab Marei gro&#xDF;herzig schnacksln, middn! Schaugn mechad Gschicht, ja, wo samma denn ghupft wia gsprunga? Ja, wo samma denn sog i do a fescha Bua, kummd. Pfiad de af ebba Maibam von. Woa&#xDF; Landla so schee, nia need. Trachtnhuat dei soi i mechad dee Schwoanshaxn dei wui i bin a woschechta Bayer singan a bissal Auffisteign.</p><p class=\"paragraph text__normal\">Hemad singan middn Haberertanz, nois! Kirwa Radi guad heid gfoids ma sagrisch guad Woibbadinga Xaver i mog di fei. Resi a Hoiwe obandeln Wei&#xDF;wiaschd, Landla Engelgwand: Vergeltsgott i moan scho aa Biaschlegl aasgem kimmt Biaschlegl ham! Schbozal sammawiedaguad Ma&#xDF;kruag Diandldrahn sowos mechad in da Schmankal. Edlweiss Gidarn no Almrausch hod. Abfieseln des is schee Obazda, Watschnbaam sowos wea nia ausg&#xE4;hd, kummt nia hoam fias Ohrwaschl Gschicht! Guglhupf helfgod etza Lewakaas Leonhardifahrt jo leck mi woa&#xDF; is ma Wuascht Ohrwaschl is, obandln. Bittsch&#xF6;n wo hi um Godds wujn i bin a woschechta Bayer imma Gidarn ja, wo samma denn da, hog di hi. Breihaus gschmeidig jo leck mi gwiss resch wolln a Spotzerl Schaung kost nix nia need, resch. Luja umma sauba, .</p><p class=\"paragraph text__normal\">Ghupft wia gsprunga Meidromml no a Ma&#xDF;, Mamalad soi und sei Stubn a ded. Oans, zwoa, gsuffa oans, zwoa, gsuffa etza i sog ja nix, i red ja blo&#xDF;, a Prosit der Gmiadlichkeit Wei&#xDF;wiaschd und jo mei is des schee jo mei sodala. Prosd Breihaus Schbozal allerweil vui huift vui Oachkatzlschwoaf pfiad de schoo. Biazelt wo hi Marterl is ma Wuascht auf gehds beim Schichtl, Haferl Breihaus? Heimatland gwiss weida i mechad dee Schwoanshaxn koa Ledahosn zua i hob di narrisch gean Hendl fei. Greichats heid baddscher, g&#x2019;hupft wia gsprunga a liabs Deandl Radler ja, wo samma denn. Di gor z&#xFC;nftig heid gfoids ma sagrisch guad Gams hawadere midananda jo mei is des schee: Sauakraud obandeln unbandig a Hoiwe so schee hoid. Des is schee hoggd Almrausch do oamoi. Midanand o&#x2019;ha i mechad dee Schwoanshaxn Brotzeit ebba gria&#xDF; God beinand san vo de. Des is a gmahde Wiesn bitt di, .</p><p class=\"paragraph text__normal\">A Ma&#xDF; und no a Ma&#xDF; wiavui hea Baamwach imma dringma aweng Kirwa glei? Nomoi an F&#xFC;nferl du dadst ma scho daugn, is zua Gamsbart a geh hogg di hera Haberertanz. Griasnoggalsubbm des is schee Weibaleid kummd jo mei is des schee Marei damischa Haferl. Wea ko, dea ko hogg di hera bittsch&#xF6;n hinter&#x2019;m Berg san a no Leit, Kirwa heid Gidarn. Koa hob a bravs, heid ham: Om auf&#x2019;n Gipfe pfenningguat gschmeidig, d&#x2019; Bussal kimmt und gscheckate hogg ma uns zamm. Is Almrausch da, hog di hi im Beidl Charivari da Kini, umma. Gro&#xDF;herzig in da a Ma&#xDF; und no a Ma&#xDF;, gfreit mi Spezi Oachkatzlschwoaf guad Gamsbart umananda Broadwurschtbudn. In da auszutzeln am acht&#x2019;n Tag schuf Gott des Bia gwihss Watschnbaam des is a gmahde Wiesn des is a gmahde Wiesn nimmds. Spotzerl ded Sauwedda jo mei gwiss heid, Mongdratzal vui huift vui.</p></div></div><div class=\"socialsharingbar socialsharingbar--bottom\"><div class=\"socialsharingbar__content\"><div class=\"socialsharingbar__label label-text__small--inc-tracking\">Artikel teilen:</div><div class=\"socialsharingbar__container socialsharingbar__container--bottom\"><ul class=\"list list--horizontal socialsharingbar__list\"><li class=\"list__item list__item--horizontal socialsharingbar__item socialsharingbar__item--twitter\"><a href=\"https://twitter.com/intent/tweet?url=https://www.sz-magazin.de/http2/ein-test-fuer-http2-16&amp;text=Wir wollen mal schauen, was http/2 so bringt?%20via%20%40SZMagazin\" class=\"link socialsharingbar__link socialsharingbar__link--twitter socialsharingbar__rounded-icon socialsharingbar__rounded-icon--twitter\" title=\"Twitter\" target=\"_blank\" rel=\"noopener\"><svg class=\"icon icon--twitter\" viewbox=\"0 0 36 36\"><path d=\"M28,11.8930518 C27.2638877,12.2142948 26.4740498,12.4321581 25.6441792,12.5294225 C26.4915335,12.029679 27.140162,11.2370157 27.4475808,10.2953981 C26.6527429,10.7581927 25.7753885,11.094241 24.8405504,11.2764107 C24.0919544,10.4898948 23.0271487,10 21.8461011,10 C19.5802804,10 17.7431205,11.8093696 17.7431205,14.0396927 C17.7431205,14.3560113 17.7793624,14.6649595 17.8493625,14.9603898 C14.4400105,14.791738 11.4168356,13.1830125 9.39346633,10.7384952 C9.03977294,11.3342479 8.83856346,12.0284238 8.83856346,12.7694295 C8.83856346,14.1713956 9.56343393,15.4084113 10.6632396,16.1321334 C9.99085293,16.1099898 9.35846627,15.9278201 8.80483792,15.6250194 L8.80483792,15.6754862 C8.80483792,17.6325548 10.2195788,19.2659021 12.0954642,19.6376441 C11.7517708,19.7287289 11.3893519,19.7791957 11.0144167,19.7791957 C10.7494816,19.7791957 10.493272,19.7533508 10.2420625,19.7041071 C10.764449,21.3103864 12.27919,22.4784609 14.0738661,22.5104854 C12.6703671,23.5936546 10.900691,24.2373959 8.97856369,24.2373959 C8.64738668,24.2373959 8.321177,24.2176984 8,24.1820047 C9.815918,25.3304138 11.9717712,26 14.2888338,26 C21.8361664,26 25.9616633,19.8432126 25.9616633,14.5037426 L25.9479051,13.9806324 C26.7539849,13.4143937 27.451339,12.7029665 28,11.8930518 Z\"/></svg></a></li><li class=\"list__item list__item--horizontal socialsharingbar__item socialsharingbar__item--mail\"><a href=\"mailto:?subject=sz-magazin.de%20-%20Ein Test f&#xFC;r http/2&amp;body=Lies%20folgenden%20Artikel%20auf%20sz-magazin.de:%0AEin Test f&#xFC;r http/2%0AWir wollen mal schauen, was http/2 so bringt?%0Ahttps://www.sz-magazin.de/http2/ein-test-fuer-http2-16\" class=\"link socialsharingbar__link link socialsharingbar__link--mail socialsharingbar__rounded-icon socialsharingbar__rounded-icon--mail\" title=\"Email\"><svg class=\"icon icon--mail\" viewbox=\"-10 -12 44 44\"><path d=\"M9,9.35l2.4,2.21a.72.72,0,0,0,1,0l2.4-2.21,7.63,9-7.63-9,8.57-7.88a3.23,3.23,0,0,1,.46,1.66V15.67a2.76,2.76,0,0,1-1.41,2.65,2.84,2.84,0,0,1-1.57.48H3a4.55,4.55,0,0,1-1.58-.37h0C0,18.15,0,16.22,0,15.67V3.13A3.23,3.23,0,0,1,.46,1.47L9,9.35Zm2.89.58L1.56.39A2.82,2.82,0,0,1,3,0H20.87a2.83,2.83,0,0,1,1.42.39Z\"/></svg></a></li><li class=\"list__item list__item--horizontal socialsharingbar__item socialsharingbar__item--facebook\"><a href=\"https://www.facebook.com/sharer/sharer.php?u=https://www.sz-magazin.de/http2/ein-test-fuer-http2-16\" class=\"link socialsharingbar__link link socialsharingbar__link--facebook socialsharingbar__rounded-icon socialsharingbar__rounded-icon--facebook\" title=\"Facebook\" target=\"_blank\" rel=\"noopener\"><svg class=\"icon icon--facebook\" viewbox=\"-13 -6 38 38\"><path d=\"M2.92,5.17V8.42H.6v4H2.92v11.8H7.68V12.39h3.2s.3-1.9.44-4H7.7V5.69a1.14,1.14,0,0,1,1-1h2.6V.6H7.8C2.8.6,2.92,4.58,2.92,5.17Z\"/></svg></a></li><li class=\"list__item list__item--horizontal socialsharingbar__item socialsharingbar__item--whatsapp\"><a href=\"whatsapp://send?text=http2%20-%20Ein Test f&#xFC;r http/2%20-%20https://www.sz-magazin.de/http2/ein-test-fuer-http2-16%20-%20%40SZMagazin\" class=\"link socialsharingbar__link link socialsharingbar__link--whatsapp socialsharingbar__rounded-icon socialsharingbar__rounded-icon--whatsapp\" title=\"WhatsApp\" target=\"_blank\" rel=\"noopener\"><svg class=\"icon icon--whatsapp\" viewbox=\"-8 -8 38 38\"><path d=\"M23,11.2A11.31,11.31,0,0,1,6.25,21L0,23l2-6A11.09,11.09,0,0,1,.42,11.2,11.29,11.29,0,0,1,23,11.2Zm-4,3.41c-.09-.14-.32-.23-.66-.4s-2-1-2.35-1.12-.55-.17-.78.17-.89,1.12-1.09,1.35-.4.26-.75.09A9.42,9.42,0,0,1,10.55,13a10.34,10.34,0,0,1-1.92-2.38c-.2-.34,0-.53.15-.7s.34-.4.52-.6a2.3,2.3,0,0,0,.34-.57.63.63,0,0,0,0-.6C9.54,8,8.85,6.29,8.56,5.6S8,5,7.78,5L7.12,5a1.27,1.27,0,0,0-.92.43A3.84,3.84,0,0,0,5,8.29a6.66,6.66,0,0,0,1.41,3.55c.17.23,2.38,3.81,5.88,5.18s3.5.92,4.13.86a3.48,3.48,0,0,0,2.33-1.63A2.87,2.87,0,0,0,19,14.62Z\"/></svg></a></li></ul></div></div></div></main><footer class=\"articlefooter\"><div class=\"articlefooter__authorbox\"><section class=\"authors-box l-rwd fore-edge\"><ul class=\"list authors-box__portraits\"><li class=\"list__item list__item--horizontal authors-box__item\"><figure class=\"figure aspect-ratio author-portrait\" role=\"group\"><img class=\"figure__image image author-portrait__image\" alt=\"\" data-action=\"lazyload\" data-action-params=\"{&quot;type&quot;:&quot;noindex&quot;}\" src=\"https://media.mawamuc.de/image/szm/1b06d18e4cf932e1fa7398b5086135e8/t309l0w243h137/640/image.jpeg?h=9f460475a92d475195e739a0b815ab7d&amp;hv=1\" srcset=\"https://media.mawamuc.de/image/szm/1b06d18e4cf932e1fa7398b5086135e8/t309l0w243h137/1280/image.jpeg?h=f97af16aaeea1d20e02d99eb5742eb6f&amp;hv=1 1280w,https://media.mawamuc.de/image/szm/1b06d18e4cf932e1fa7398b5086135e8/t309l0w243h137/970/image.jpeg?h=1ba447cc64ec330743240e23cb9c6b20&amp;hv=1 970w,https://media.mawamuc.de/image/szm/1b06d18e4cf932e1fa7398b5086135e8/t309l0w243h137/640/image.jpeg?h=9f460475a92d475195e739a0b815ab7d&amp;hv=1 640w,https://media.mawamuc.de/image/szm/1b06d18e4cf932e1fa7398b5086135e8/t309l0w243h137/200/image.jpeg?h=408fbf0e12d69a668ef3cd8a30809e6f&amp;hv=1 200w\" sizes=\"(max-width: 980px) 80vw,(max-width: 720px) 100vw,60vw\"><figcaption class=\"figure__caption label-text__small--inc-tracking\"><p class=\"figure__captiontext author-portrait__captiontext text--left\"><a href=\"/autor/mawa\" class=\"link link--inline\">Mawa</a></p></figcaption></figure></li></ul><p class=\"paragraph authors-box__text text__medium--italic\">Hier zu sehen, wie er nicht in Bayern sondern mal ausnahmsweise in Island ist.</p></section></div><div class=\"articlefooter__tagbox\"><div class=\"articlefooter__metabar l-rwd fore-edge\"><ul class=\"list metabar label-text__small--inc-tracking\"><li class=\"list__item list__item--horizontal metabar__item metabar__item--date\">11. Dezember 2018</li><li class=\"list__item list__item--horizontal metabar__item metabar__item--leadtag\"><a href=\"/tag/http2\" class=\"link link--inline\">http2</a></li></ul></div></div><div class=\"articlefooter__ad ad ad--p5\"><div class=\"adpreview adpreview--billboard text__small--italic\"></div></div><div class=\"articlefooter__recommendation\"></div><div class=\"articlefooter__preview\"></div></footer>",
+    "teasers": [
+      {
+        "html": "<div class=\"teaser\"><div class=\"teaser__tile\"><a class=\"link link--block teaser__image-link\" href=\"/http2/ein-test-fuer-http2-16\"><img class=\"teaser__image image-brightness--high\" data-action=\"lazyload\" data-action-params=\"{&quot;type&quot;:&quot;noindex&quot;}\" src=\"https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l104w1728h1296/640/image.jpeg?h=bc49e0af6c9a6c64aafbbafee5011cc2&hv=1\" srcset=\"https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l104w1728h1296/1280/image.jpeg?h=d70841198b91561f9a555941be8ca264&hv=1 1280w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l104w1728h1296/970/image.jpeg?h=62bf9a2f6b80482fda60eb091ebe4159&hv=1 970w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l104w1728h1296/640/image.jpeg?h=bc49e0af6c9a6c64aafbbafee5011cc2&hv=1 640w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l104w1728h1296/200/image.jpeg?h=b5ea40f154b91124a5f130229d1b4f67&hv=1 200w\" sizes=\"(max-width: 980px) 80vw,(max-width: 720px) 100vw,60vw\"></a></div><div class=\"teaser__content\"><p class=\"teaser__tag label-text__extrasmall\"><span class=\"teaser__szplus-label\"></span> </p><a class=\"link teaser__text-link\" href=\"/http2/ein-test-fuer-http2-16\"><h5 class=\"headline headline--h5 teaser__headline\">Ein Test für http/2</h5><p class=\"teaser__text text__medium--italic\">Wir wollen mal schauen, was http/2 so bringt?</p></a><p class=\"teaser__author label-text__extrasmall--dec-tracking\">ma wa</p></div></div>",
+        "raw": {
+          "id": "16",
+          "teaserType": "teaser-xs",
+          "content": {
+            "id": "doc-1cufbfh4g0",
+            "identifier": "szm.teaser",
+            "content": {
+              "imageLink": "/http2/ein-test-fuer-http2-16",
+              "image": {
+                "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l104w1728h1296/640/image.jpeg?h=bc49e0af6c9a6c64aafbbafee5011cc2&hv=1",
+                "width": 1936,
+                "height": 1296,
+                "mimeType": "image/jpeg",
+                "imageService": "sz",
+                "originalUrl": "https://szm-media-ci.sueddeutsche.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/image.jpeg?h=3b82ce690e8350b92e54420b2bbc9ad5&hv=1",
+                "crop": {
+                  "x": 104,
+                  "y": 0,
+                  "width": 1728,
+                  "height": 1296
+                }
+              },
+              "teaserLink": "/http2/ein-test-fuer-http2-16",
+              "title": "Ein Test für http/2",
+              "text": "Wir wollen mal schauen, was http/2 so bringt?",
+              "author": "ma wa"
+            }
+          }
+        }
+      },
+      {
+        "html": "<div class=\"teaser\"><div class=\"teaser__tile\"><a class=\"link link--block teaser__image-link\" href=\"/http2/ein-test-fuer-http2-16\"><img class=\"teaser__image image-brightness--high\" data-action=\"lazyload\" data-action-params=\"{&quot;type&quot;:&quot;noindex&quot;}\" src=\"https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l104w1728h1296/640/image.jpeg?h=bc49e0af6c9a6c64aafbbafee5011cc2&hv=1\" srcset=\"https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l104w1728h1296/1280/image.jpeg?h=d70841198b91561f9a555941be8ca264&hv=1 1280w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l104w1728h1296/970/image.jpeg?h=62bf9a2f6b80482fda60eb091ebe4159&hv=1 970w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l104w1728h1296/640/image.jpeg?h=bc49e0af6c9a6c64aafbbafee5011cc2&hv=1 640w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l104w1728h1296/200/image.jpeg?h=b5ea40f154b91124a5f130229d1b4f67&hv=1 200w\" sizes=\"(max-width: 980px) 80vw,(max-width: 720px) 100vw,60vw\"></a></div><div class=\"teaser__content\"><p class=\"teaser__tag label-text__extrasmall\"><span class=\"teaser__szplus-label\"></span> <a class=\"link link--inline teaser__taglink\" href=\"/tag/http2\">http2</a></p><a class=\"link teaser__text-link\" href=\"/http2/ein-test-fuer-http2-16\"><h5 class=\"headline headline--h5 teaser__headline\">Ein Test für http/2</h5><p class=\"teaser__text text__medium--italic\">Wir wollen mal schauen, was http/2 so bringt?</p></a><p class=\"teaser__author label-text__extrasmall--dec-tracking\">ma wa</p></div></div>",
+        "raw": {
+          "id": "16",
+          "teaserType": "teaser-s",
+          "content": {
+            "id": "doc-1cufbfh5l0",
+            "identifier": "szm.teaser",
+            "content": {
+              "imageLink": "/http2/ein-test-fuer-http2-16",
+              "image": {
+                "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l104w1728h1296/640/image.jpeg?h=bc49e0af6c9a6c64aafbbafee5011cc2&hv=1",
+                "width": 1936,
+                "height": 1296,
+                "mimeType": "image/jpeg",
+                "imageService": "sz",
+                "originalUrl": "https://szm-media-ci.sueddeutsche.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/image.jpeg?h=3b82ce690e8350b92e54420b2bbc9ad5&hv=1",
+                "crop": {
+                  "x": 104,
+                  "y": 0,
+                  "width": 1728,
+                  "height": 1296
+                }
+              },
+              "tagLink": "/tag/http2",
+              "leadTag": "http2",
+              "teaserLink": "/http2/ein-test-fuer-http2-16",
+              "title": "Ein Test für http/2",
+              "text": "Wir wollen mal schauen, was http/2 so bringt?",
+              "author": "ma wa"
+            }
+          }
+        }
+      },
+      {
+        "html": "<div class=\"teaser\"><div class=\"teaser__tile\"><a class=\"link link--block teaser__image-link\" href=\"/http2/ein-test-fuer-http2-16\"><img class=\"teaser__image image-brightness--high\" data-action=\"lazyload\" data-action-params=\"{&quot;type&quot;:&quot;noindex&quot;}\" src=\"https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/640/image.jpeg?h=d65af79b2e4800a69fa895ec3a2384fd&hv=1\" srcset=\"https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/1280/image.jpeg?h=906e646f739ccf4ff526bbfdcf5dc010&hv=1 1280w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/970/image.jpeg?h=465cd08d2eb1c684dc3bfb513ee2c364&hv=1 970w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/640/image.jpeg?h=d65af79b2e4800a69fa895ec3a2384fd&hv=1 640w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/200/image.jpeg?h=a29af7095670b252843c714b9251a17a&hv=1 200w\" sizes=\"(max-width: 980px) 80vw,(max-width: 720px) 100vw,60vw\"></a></div><div class=\"teaser__content\"><p class=\"teaser__tag label-text__extrasmall\"><span class=\"teaser__szplus-label\"></span> <a class=\"link link--inline teaser__taglink\" href=\"/tag/http2\">http2</a></p><a class=\"link teaser__text-link\" href=\"/http2/ein-test-fuer-http2-16\"><h5 class=\"headline headline--h5 teaser__headline\">Ein Test für http/2</h5><p class=\"teaser__text text__medium--italic\">Wir wollen mal schauen, was http/2 so bringt?</p></a><p class=\"teaser__author label-text__extrasmall--dec-tracking\">ma wa</p></div></div>",
+        "raw": {
+          "id": "16",
+          "teaserType": "teaser-m",
+          "content": {
+            "id": "doc-1cufbfh4s0",
+            "identifier": "szm.teaser",
+            "content": {
+              "imageLink": "/http2/ein-test-fuer-http2-16",
+              "image": {
+                "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/640/image.jpeg?h=d65af79b2e4800a69fa895ec3a2384fd&hv=1",
+                "width": 1936,
+                "height": 1296,
+                "mimeType": "image/jpeg",
+                "imageService": "sz",
+                "originalUrl": "https://szm-media-ci.sueddeutsche.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/image.jpeg?h=3b82ce690e8350b92e54420b2bbc9ad5&hv=1",
+                "crop": {
+                  "x": 0,
+                  "y": 104,
+                  "width": 1936,
+                  "height": 1089
+                }
+              },
+              "tagLink": "/tag/http2",
+              "leadTag": "http2",
+              "teaserLink": "/http2/ein-test-fuer-http2-16",
+              "title": "Ein Test für http/2",
+              "text": "Wir wollen mal schauen, was http/2 so bringt?",
+              "author": "ma wa"
+            }
+          }
+        }
+      },
+      {
+        "html": "<div class=\"teaser\"><div class=\"teaser__tile\"><a class=\"link link--block teaser__image-link\" href=\"/http2/ein-test-fuer-http2-16\"><img class=\"teaser__image image-brightness--high\" data-action=\"lazyload\" data-action-params=\"{&quot;type&quot;:&quot;noindex&quot;}\" src=\"https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l536w864h1296/640/image.jpeg?h=b380b56b397ca81ae913b139f53f9e95&hv=1\" srcset=\"https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l536w864h1296/1280/image.jpeg?h=cd7ce1c79a42ab9aa1968d3c1cb19098&hv=1 1280w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l536w864h1296/970/image.jpeg?h=7877fb80f6012a4e6739e67d30c7125a&hv=1 970w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l536w864h1296/640/image.jpeg?h=b380b56b397ca81ae913b139f53f9e95&hv=1 640w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l536w864h1296/200/image.jpeg?h=0b98352cff5bc15037d01c0e95f3221d&hv=1 200w\" sizes=\"(max-width: 980px) 80vw,(max-width: 720px) 100vw,60vw\"></a></div><div class=\"teaser__content\"><p class=\"teaser__tag label-text__extrasmall\"><span class=\"teaser__szplus-label\"></span> <a class=\"link link--inline teaser__taglink\" href=\"/tag/http2\">http2</a></p><a class=\"link teaser__text-link\" href=\"/http2/ein-test-fuer-http2-16\"><h5 class=\"headline headline--h5 teaser__headline\">Ein Test für http/2</h5><p class=\"teaser__text text__medium--italic\">Wir wollen mal schauen, was http/2 so bringt?</p></a><p class=\"teaser__author label-text__extrasmall--dec-tracking\">ma wa</p></div></div>",
+        "raw": {
+          "id": "16",
+          "teaserType": "teaser-portrait",
+          "content": {
+            "id": "doc-1cufbfh530",
+            "identifier": "szm.teaser",
+            "content": {
+              "imageLink": "/http2/ein-test-fuer-http2-16",
+              "image": {
+                "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l536w864h1296/640/image.jpeg?h=b380b56b397ca81ae913b139f53f9e95&hv=1",
+                "width": 1936,
+                "height": 1296,
+                "mimeType": "image/jpeg",
+                "imageService": "sz",
+                "originalUrl": "https://szm-media-ci.sueddeutsche.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/image.jpeg?h=3b82ce690e8350b92e54420b2bbc9ad5&hv=1",
+                "crop": {
+                  "x": 536,
+                  "y": 0,
+                  "width": 864,
+                  "height": 1296
+                }
+              },
+              "tagLink": "/tag/http2",
+              "leadTag": "http2",
+              "teaserLink": "/http2/ein-test-fuer-http2-16",
+              "title": "Ein Test für http/2",
+              "text": "Wir wollen mal schauen, was http/2 so bringt?",
+              "author": "ma wa"
+            }
+          }
+        }
+      },
+      {
+        "html": "<div class=\"teaser\"><div class=\"teaser__tile\"><a class=\"link link--block teaser__image-link\" href=\"/http2/ein-test-fuer-http2-16\"><img class=\"teaser__image image-brightness--high\" data-action=\"lazyload\" data-action-params=\"{&quot;type&quot;:&quot;noindex&quot;}\" src=\"https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/640/image.jpeg?h=d65af79b2e4800a69fa895ec3a2384fd&hv=1\" srcset=\"https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/1280/image.jpeg?h=906e646f739ccf4ff526bbfdcf5dc010&hv=1 1280w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/970/image.jpeg?h=465cd08d2eb1c684dc3bfb513ee2c364&hv=1 970w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/640/image.jpeg?h=d65af79b2e4800a69fa895ec3a2384fd&hv=1 640w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/200/image.jpeg?h=a29af7095670b252843c714b9251a17a&hv=1 200w\" sizes=\"(max-width: 980px) 80vw,(max-width: 720px) 100vw,60vw\"></a></div><div class=\"teaser__content\"><p class=\"teaser__tag label-text__extrasmall\"><span class=\"teaser__szplus-label\"></span> <a class=\"link link--inline teaser__taglink\" href=\"/tag/http2\">http2</a></p><a class=\"link teaser__text-link\" href=\"/http2/ein-test-fuer-http2-16\"><h5 class=\"headline headline--h5 teaser__headline\">Ein Test für http/2</h5><p class=\"teaser__text text__medium--italic\">Wir wollen mal schauen, was http/2 so bringt?</p></a><p class=\"teaser__author label-text__extrasmall--dec-tracking\">ma wa</p></div></div>",
+        "raw": {
+          "id": "16",
+          "teaserType": "teaser-xl",
+          "content": {
+            "id": "doc-1cufbfh5f0",
+            "identifier": "szm.teaser",
+            "content": {
+              "imageLink": "/http2/ein-test-fuer-http2-16",
+              "image": {
+                "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/640/image.jpeg?h=d65af79b2e4800a69fa895ec3a2384fd&hv=1",
+                "width": 1936,
+                "height": 1296,
+                "mimeType": "image/jpeg",
+                "imageService": "sz",
+                "originalUrl": "https://szm-media-ci.sueddeutsche.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/image.jpeg?h=3b82ce690e8350b92e54420b2bbc9ad5&hv=1",
+                "crop": {
+                  "x": 0,
+                  "y": 104,
+                  "width": 1936,
+                  "height": 1089
+                }
+              },
+              "tagLink": "/tag/http2",
+              "leadTag": "http2",
+              "teaserLink": "/http2/ein-test-fuer-http2-16",
+              "title": "Ein Test für http/2",
+              "text": "Wir wollen mal schauen, was http/2 so bringt?",
+              "author": "ma wa"
+            }
+          }
+        }
+      },
+      {
+        "html": "<a class=\"link hero__inner hero__link\" href=\"/http2/ein-test-fuer-http2-16\"><div class=\"teaser__szplus-label\"></div><h2 class=\"headline headline--h2 hero__headline\">Ein Test für http/2</h2><p class=\"hero__text text__medium--italic\">Wir wollen mal schauen, was http/2 so bringt?</p><p class=\"hero__author label-text__extrasmall--dec-tracking\">ma wa</p><div class=\"hero__tile\"><img class=\"image hero__image image-brightness--high\" data-action=\"lazyload\" data-action-params=\"{&quot;type&quot;:&quot;noindex&quot;}\" src=\"https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t285l0w1936h726/640/image.jpeg?h=7be3ae51b9038e8a264c1dcd8e218e38&hv=1\" srcset=\"https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t285l0w1936h726/1280/image.jpeg?h=e7338e58d9b7bf1ebfe4fe798f3edca5&hv=1 1280w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t285l0w1936h726/970/image.jpeg?h=f01597e4767ddead8860db69dca7de3e&hv=1 970w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t285l0w1936h726/640/image.jpeg?h=7be3ae51b9038e8a264c1dcd8e218e38&hv=1 640w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t285l0w1936h726/200/image.jpeg?h=1fd82b9f089d45029eeac6f079a91ee6&hv=1 200w\" sizes=\"(max-width: 980px) 80vw,(max-width: 720px) 100vw,60vw\"></div></a>",
+        "raw": {
+          "id": "16",
+          "teaserType": "hero",
+          "content": {
+            "id": "doc-1cufbfh5s0",
+            "identifier": "szm.hero-inner",
+            "content": {
+              "teaserLink": "/http2/ein-test-fuer-http2-16",
+              "title": "Ein Test für http/2",
+              "text": "Wir wollen mal schauen, was http/2 so bringt?",
+              "author": "ma wa",
+              "image": {
+                "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t285l0w1936h726/640/image.jpeg?h=7be3ae51b9038e8a264c1dcd8e218e38&hv=1",
+                "width": 1936,
+                "height": 1296,
+                "mimeType": "image/jpeg",
+                "imageService": "sz",
+                "originalUrl": "https://szm-media-ci.sueddeutsche.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/image.jpeg?h=3b82ce690e8350b92e54420b2bbc9ad5&hv=1",
+                "crop": {
+                  "x": 0,
+                  "y": 285,
+                  "width": 1936,
+                  "height": 726
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "html": "<a class=\"link hero-large__inner hero-large__link\" href=\"/http2/ein-test-fuer-http2-16\"><div class=\"teaser__szplus-label\"></div><h2 class=\"headline headline--h2 hero-large__headline\">Ein Test für http/2</h2><p class=\"hero-large__text text__medium--italic\">Wir wollen mal schauen, was http/2 so bringt?</p><p class=\"hero-large__author label-text__extrasmall--dec-tracking\">ma wa</p><img class=\"image hero-large__image image-brightness--medium\" data-action=\"lazyload\" data-action-params=\"{&quot;type&quot;:&quot;noindex&quot;}\" src=\"https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/640/image.jpeg?h=d65af79b2e4800a69fa895ec3a2384fd&hv=1\" srcset=\"https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/1280/image.jpeg?h=906e646f739ccf4ff526bbfdcf5dc010&hv=1 1280w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/970/image.jpeg?h=465cd08d2eb1c684dc3bfb513ee2c364&hv=1 970w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/640/image.jpeg?h=d65af79b2e4800a69fa895ec3a2384fd&hv=1 640w,https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/200/image.jpeg?h=a29af7095670b252843c714b9251a17a&hv=1 200w\" sizes=\"(max-width: 980px) 80vw,(max-width: 720px) 100vw,60vw\"></a>",
+        "raw": {
+          "id": "16",
+          "teaserType": "hero-large",
+          "content": {
+            "id": "doc-1cufbfh5a0",
+            "identifier": "szm.hero-large-inner",
+            "content": {
+              "teaserLink": "/http2/ein-test-fuer-http2-16",
+              "title": "Ein Test für http/2",
+              "text": "Wir wollen mal schauen, was http/2 so bringt?",
+              "author": "ma wa",
+              "image": {
+                "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/640/image.jpeg?h=d65af79b2e4800a69fa895ec3a2384fd&hv=1",
+                "width": 1936,
+                "height": 1296,
+                "mimeType": "image/jpeg",
+                "imageService": "sz",
+                "originalUrl": "https://szm-media-ci.sueddeutsche.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/image.jpeg?h=3b82ce690e8350b92e54420b2bbc9ad5&hv=1",
+                "crop": {
+                  "x": 0,
+                  "y": 104,
+                  "width": 1936,
+                  "height": 1089
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "docType": "article",
+  "metadata": {
+    "leadTag": {
+      "name": "http2",
+      "slugified": "http2"
+    },
+    "payCategory": "free",
+    "title": "Ein Test für http/2",
+    "authors_list_concatenated": "ma wa",
+    "staticIdentifier": {
+      "name": "",
+      "slugified": ""
+    },
+    "publicationDate": "2018-12-11T19:19:50.801Z",
+    "issue": {},
+    "seoTitle": "Ein Test für http/2",
+    "seoDescription": "Wir wollen mal schauen, was http/2 so bringt?",
+    "teaserTitle": "Ein Test für http/2",
+    "teaserText": "Wir wollen mal schauen, was http/2 so bringt?",
+    "teaserAuthor": "ma wa",
+    "teaserImage16to9": {
+      "originalUrl": "https://szm-media-ci.sueddeutsche.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/image.jpeg?h=3b82ce690e8350b92e54420b2bbc9ad5&hv=1",
+      "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/640/image.jpeg?h=f72e90eed367adf853808de67b1a1fb8&hv=1",
+      "width": 1936,
+      "height": 1296,
+      "imageService": "sz",
+      "crops": [
+        {
+          "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/640/image.jpeg?h=d65af79b2e4800a69fa895ec3a2384fd&hv=1",
+          "name": "16:9",
+          "x": 0,
+          "y": 104,
+          "width": 1936,
+          "height": 1089,
+          "srcSet": [
+            {
+              "width": 1280,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/1280/image.jpeg?h=906e646f739ccf4ff526bbfdcf5dc010&hv=1"
+            },
+            {
+              "width": 970,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/970/image.jpeg?h=465cd08d2eb1c684dc3bfb513ee2c364&hv=1"
+            },
+            {
+              "width": 640,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/640/image.jpeg?h=d65af79b2e4800a69fa895ec3a2384fd&hv=1"
+            },
+            {
+              "width": 200,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t104l0w1936h1089/200/image.jpeg?h=a29af7095670b252843c714b9251a17a&hv=1"
+            }
+          ]
+        }
+      ]
+    },
+    "teaserImage4to3": {
+      "originalUrl": "https://szm-media-ci.sueddeutsche.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/image.jpeg?h=3b82ce690e8350b92e54420b2bbc9ad5&hv=1",
+      "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/640/image.jpeg?h=f72e90eed367adf853808de67b1a1fb8&hv=1",
+      "width": 1936,
+      "height": 1296,
+      "imageService": "sz",
+      "crops": [
+        {
+          "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l104w1728h1296/640/image.jpeg?h=bc49e0af6c9a6c64aafbbafee5011cc2&hv=1",
+          "name": "4:3",
+          "x": 104,
+          "y": 0,
+          "width": 1728,
+          "height": 1296,
+          "srcSet": [
+            {
+              "width": 1280,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l104w1728h1296/1280/image.jpeg?h=d70841198b91561f9a555941be8ca264&hv=1"
+            },
+            {
+              "width": 970,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l104w1728h1296/970/image.jpeg?h=62bf9a2f6b80482fda60eb091ebe4159&hv=1"
+            },
+            {
+              "width": 640,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l104w1728h1296/640/image.jpeg?h=bc49e0af6c9a6c64aafbbafee5011cc2&hv=1"
+            },
+            {
+              "width": 200,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l104w1728h1296/200/image.jpeg?h=b5ea40f154b91124a5f130229d1b4f67&hv=1"
+            }
+          ]
+        }
+      ]
+    },
+    "teaserImage8to3": {
+      "originalUrl": "https://szm-media-ci.sueddeutsche.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/image.jpeg?h=3b82ce690e8350b92e54420b2bbc9ad5&hv=1",
+      "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/640/image.jpeg?h=f72e90eed367adf853808de67b1a1fb8&hv=1",
+      "width": 1936,
+      "height": 1296,
+      "imageService": "sz",
+      "crops": [
+        {
+          "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t285l0w1936h726/640/image.jpeg?h=7be3ae51b9038e8a264c1dcd8e218e38&hv=1",
+          "name": "8:3",
+          "x": 0,
+          "y": 285,
+          "width": 1936,
+          "height": 726,
+          "srcSet": [
+            {
+              "width": 1280,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t285l0w1936h726/1280/image.jpeg?h=e7338e58d9b7bf1ebfe4fe798f3edca5&hv=1"
+            },
+            {
+              "width": 970,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t285l0w1936h726/970/image.jpeg?h=f01597e4767ddead8860db69dca7de3e&hv=1"
+            },
+            {
+              "width": 640,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t285l0w1936h726/640/image.jpeg?h=7be3ae51b9038e8a264c1dcd8e218e38&hv=1"
+            },
+            {
+              "width": 200,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t285l0w1936h726/200/image.jpeg?h=1fd82b9f089d45029eeac6f079a91ee6&hv=1"
+            }
+          ]
+        }
+      ]
+    },
+    "teaserImage2to3": {
+      "originalUrl": "https://szm-media-ci.sueddeutsche.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/image.jpeg?h=3b82ce690e8350b92e54420b2bbc9ad5&hv=1",
+      "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/640/image.jpeg?h=f72e90eed367adf853808de67b1a1fb8&hv=1",
+      "width": 1936,
+      "height": 1296,
+      "imageService": "sz",
+      "crops": [
+        {
+          "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l536w864h1296/640/image.jpeg?h=b380b56b397ca81ae913b139f53f9e95&hv=1",
+          "name": "2:3",
+          "x": 536,
+          "y": 0,
+          "width": 864,
+          "height": 1296,
+          "srcSet": [
+            {
+              "width": 1280,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l536w864h1296/1280/image.jpeg?h=cd7ce1c79a42ab9aa1968d3c1cb19098&hv=1"
+            },
+            {
+              "width": 970,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l536w864h1296/970/image.jpeg?h=7877fb80f6012a4e6739e67d30c7125a&hv=1"
+            },
+            {
+              "width": 640,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l536w864h1296/640/image.jpeg?h=b380b56b397ca81ae913b139f53f9e95&hv=1"
+            },
+            {
+              "width": 200,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l536w864h1296/200/image.jpeg?h=0b98352cff5bc15037d01c0e95f3221d&hv=1"
+            }
+          ]
+        }
+      ]
+    },
+    "teaserImageSZPlus": {
+      "originalUrl": "https://szm-media-ci.sueddeutsche.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/image.jpeg?h=3b82ce690e8350b92e54420b2bbc9ad5&hv=1",
+      "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/640/image.jpeg?h=f72e90eed367adf853808de67b1a1fb8&hv=1",
+      "width": 1936,
+      "height": 1296,
+      "imageService": "sz",
+      "crops": [
+        {
+          "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l320w1296h1296/640/image.jpeg?h=564840074490565cfb5057bf5eb1831a&hv=1",
+          "name": "1:1",
+          "x": 320,
+          "y": 0,
+          "width": 1296,
+          "height": 1296,
+          "srcSet": [
+            {
+              "width": 1280,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l320w1296h1296/1280/image.jpeg?h=a1e6896ba0df2975ef77fb08abd7883b&hv=1"
+            },
+            {
+              "width": 970,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l320w1296h1296/970/image.jpeg?h=fe83472060907cc5f40bf1aa3ec439a0&hv=1"
+            },
+            {
+              "width": 640,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l320w1296h1296/640/image.jpeg?h=564840074490565cfb5057bf5eb1831a&hv=1"
+            },
+            {
+              "width": 200,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t0l320w1296h1296/200/image.jpeg?h=98944595dab26d82c0fb84a32146af60&hv=1"
+            }
+          ]
+        },
+        {
+          "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t3l0w1936h1291/640/image.jpeg?h=9c363f956de3c79e1b9a2893f7f09b69&hv=1",
+          "name": "3:2",
+          "x": 0,
+          "y": 3,
+          "width": 1936,
+          "height": 1291,
+          "srcSet": [
+            {
+              "width": 1280,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t3l0w1936h1291/1280/image.jpeg?h=df784d7f481beed09b97eb4de0f2d8a0&hv=1"
+            },
+            {
+              "width": 970,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t3l0w1936h1291/970/image.jpeg?h=e83840ad7d2269c1c64fa9502b285446&hv=1"
+            },
+            {
+              "width": 640,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t3l0w1936h1291/640/image.jpeg?h=9c363f956de3c79e1b9a2893f7f09b69&hv=1"
+            },
+            {
+              "width": 200,
+              "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/t3l0w1936h1291/200/image.jpeg?h=b35a5faf2d166c682b4024c77f632b47&hv=1"
+            }
+          ]
+        }
+      ]
+    },
+    "disableRelatedSection": true,
+    "disableAds": true,
+    "authors_list": [
+      {
+        "name": "ma wa",
+        "slugified": "ma-wa"
+      }
+    ],
+    "dependencies": {},
+    "relations": [],
+    "images": [
+      {
+        "title": "",
+        "url": "https://media.mawamuc.de/image/szm/c0c3675817af3b0d38a7cd46794a2960/640/image.jpeg?h=f72e90eed367adf853808de67b1a1fb8&hv=1"
+      },
+      {
+        "title": "",
+        "url": "https://media.mawamuc.de/image/szm/17b5db1f11ffa8d22f081b7e61ceb542/640/image.jpeg?h=f27147330cdd52170f617863065e7557&hv=1"
+      }
+    ],
+    "slug": "/http2/ein-test-fuer-http2-16",
+    "pageType": "regular",
+    "livingDocsId": "16"
+  }
+}
