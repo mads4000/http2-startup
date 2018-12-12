@@ -19,6 +19,13 @@ services:
     container_name: szm-delivery
     env_file:
       - delivery.env
+  media-service:
+    image: gcr.io/mawa-225208/media-service:latest
+    ports:
+      - 3500:3500
+    container_name: media-service
+    env_file:
+      - media-service.env
 volumes:
   szm-delivery-elastic-data:
     driver: local
